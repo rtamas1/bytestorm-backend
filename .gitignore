@@ -1,0 +1,56 @@
+node_modules
+.env
+npm-debug.log
+yarn-error.log
+dist/
+.env.local
+build/
+
+# Builds / output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Runtime / logs / pids
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Environments & secrets (nu comite niciodată!)
+.env
+.env.*
+!.env.example
+
+# PM2
+# (de obicei nu pui ecosistemul în repo dacă are secrete)
+ecosystem.config.js
+ecosystem.config.cjs
+.pm2/
+
+# Cache / tools
+.cache/
+.tmp/
+.eslintcache
+.nyc_output/
+
+# Uploads temporare
+uploads/
+tmp/
+temp/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Test / API clients
+*.http
+*.rest
+.postman/
+*.har
+cookie.txt
